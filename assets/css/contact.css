@@ -1,0 +1,33 @@
+:root {
+  --primary_color: #698d6d;
+  --secondary_color: #403e3c;
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+.contact_image {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.green_location {
+  background-color: var(--primary_color);
+  margin-top: -60px;
+}
+
+.dark_location {
+  background-color: var(--secondary_color);
+  margin-top: -60px;
+}
+
+.location_icon {
+  font-size: 35px;
+  color: white;
+}
+
+.location_title {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}

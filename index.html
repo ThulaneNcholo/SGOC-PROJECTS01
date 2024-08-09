@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Montserrat Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Main css  -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- Media Query css  -->
+    <link rel="stylesheet" href="assets/css/media_query.css" />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+      .carousel_background01 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/carousel_image04.jpeg");
+        height: 90vh;
+        width: 100%;
+        background-size: contain;
+      }
+
+      .carousel_background02 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/carousel_image05.jpeg");
+        height: 90vh;
+        width: 100%;
+        background-size: contain;
+      }
+
+      .carousel_background03 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/carousel_image06.jpg");
+        height: 90vh;
+        width: 100%;
+        background-size: contain;
+        z-index: 1; /* Lower z-index */
+      }
+
+      /* Z-index style start  */
+      .section {
+        position: relative; /* Ensure the element is positioned */
+        /* padding: 20px;
+        margin: 10px 0; */
+      }
+
+      /* Why us background  */
+      .why_us_background {
+        background-image: url("assets/images/green_background.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 350px;
+        padding-bottom: 50px;
+        width: 100%;
+        z-index: 10; /* Higher z-index */
+        /* margin-top: -160px;  */
+        margin-top: -280px;
+      }
+
+      .about_image {
+        background-image: url("assets/images/about_image.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+      }
+
+      .banner_01 {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url("assets/images/carousel_image03.jpeg");
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-size: cover;
+      }
+
+      @media screen and (max-width: 576px) {
+        .carousel_title {
+          color: rgb(255, 255, 255);
+          font-size: 30px;
+          font-weight: 900;
+          font-family: "Montserrat", sans-serif;
+        }
+
+        .years_card {
+          background-color: var(--primary_color);
+          width: 50%;
+          border: 7px solid white;
+        }
+
+        .about_image {
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 400px;
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        .carousel_title {
+          font-size: 50px;
+        }
+      }
+    </style>
+
+    <title>SGOC PROJECTS</title>
+  </head>
+  <body>
+    <!-- ======= Contact Info start  ======= -->
+    <section class="contact_background d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <h1 class="text-white fw-bold mb-0">SGOC PROJECTS</h1>
+              <p class="text-white mb-0">Carpentry Solutions</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <div class="d-flex">
+                <div>
+                  <i class="bi bi-telephone-fill contact_icon py-1 px-2"></i>
+                </div>
+                <div>
+                  <h6 class="text-white mb-0">076 826 5117</h6>
+                  <p class="text-light mb-0">Phone Number</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <div class="d-flex">
+                <div>
+                  <i class="bi bi-envelope-at-fill contact_icon py-1 px-2"></i>
+                </div>
+                <div>
+                  <h6 class="text-white mb-0">tsibeko503@gmail.com</h6>
+                  <p class="text-light mb-0">Email address</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Navbar start  ======= -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light navbar_background py-3">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/images/navbar_logo.png"
+              alt=""
+              class="navbar_logo_style"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <i class="bi bi-list menu_icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <i class="bi bi-facebook navbar_icon"></i>
+              <i class="bi bi-instagram navbar_icon mx-4"></i>
+              <i class="bi bi-linkedin navbar_icon"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- ======= Navbar Menu Offcanvas Start  ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <center>
+          <img
+            src="assets/images/logo_white_no_bg.png"
+            alt=""
+            class="offcanvas_logo mb-4"
+          />
+
+          <a href="index.html">
+            <p class="text-light">Home</p>
+          </a>
+          <hr class="text-light" />
+          <a href="services.html">
+            <p class="text-light">Services</p>
+          </a>
+          <hr class="text-light" />
+          <a href="about.html">
+            <p class="text-light">About</p>
+          </a>
+          <hr class="text-light" />
+          <a href="portfolio.html">
+            <p class="text-light">Portfolio</p>
+          </a>
+          <hr class="text-light" />
+          <a href="contact.html">
+            <p class="text-light">Contact</p>
+          </a>
+          <hr class="text-light" />
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= Carousel Slide  Start  ======= -->
+    <section class="section">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel_background01">
+            <div class="carousel-caption w-100">
+              <h1 class="carousel_title text-uppercase">
+                Custom Kitchen Units
+              </h1>
+              <center>
+                <p class="mt-5 carousel_sub">
+                  Transform your culinary space with our expertly crafted
+                  kitchen units. Designed to blend functionality with aesthetic
+                  appeal, each piece is tailored to meet your unique
+                  requirements.
+                </p>
+                <button
+                  class="btn carousel_btn px-5 py-3 rounded-0 mt-4 d-none d-md-block"
+                >
+                  CONTACT US
+                </button>
+              </center>
+            </div>
+          </div>
+          <div class="carousel-item carousel_background02">
+            <div class="carousel-caption w-100">
+              <h1 class="carousel_title text-uppercase">Elegant Wardrobes</h1>
+              <center>
+                <p class="mt-5 carousel_sub">
+                  Discover the perfect blend of storage and style with our
+                  custom wardrobes. Crafted to perfection, our wardrobes are
+                  designed to maximize space while adding a touch of elegance to
+                  your room.
+                </p>
+                <button
+                  class="btn carousel_btn px-5 py-3 rounded-0 mt-4 d-none d-md-block"
+                >
+                  LEARN MORE
+                </button>
+              </center>
+            </div>
+          </div>
+          <div class="carousel-item carousel_background03">
+            <div class="carousel-caption w-100">
+              <h1 class="carousel_title text-uppercase">Luxurious TV Stands</h1>
+              <center>
+                <p class="mt-5 carousel_sub">
+                  Elevate your living space with our bespoke TV stands.
+                  Combining modern design with superior craftsmanship, our TV
+                  stands are more than just furniture – they're a statement.
+                </p>
+                <button
+                  class="btn carousel_btn px-5 py-3 rounded-0 mt-4 d-none d-md-block"
+                >
+                  CONTACT US
+                </button>
+              </center>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ======= Why Us Start  ======= -->
+    <section class="why_us_background section">
+      <div class="container">
+        <div class="row overflow_content">
+          <div class="col-sm-12 col-lg-4 mb-5">
+            <h3
+              class="choose_title"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              WHY CHOOSE US
+            </h3>
+            <h3
+              class="choose_title"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              FOR PROJECTS
+            </h3>
+            <p
+              class="text-light mt-3"
+              class="choose_title"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              At SGOC Projects, we believe in creating more than just furniture
+              – we create experiences. Nestled in Johannesburg's East Rand, our
+              dedicated team of artisans is passionate about bringing your
+              vision to life with precision and creativity. Here's why you
+              should choose us:
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-light px-5 py-3 rounded-0 mt-4 fw-bold"
+              class="choose_title"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              VIEW ALL SERVICES
+            </button>
+          </div>
+          <!-- end item  -->
+          <div class="col-sm-12 col-lg">
+            <div class="row">
+              <div class="col-sm-12 col-lg-6 mb-4">
+                <div
+                  class="choose_service_card d-flex py-4 px-3 h-100"
+                  data-aos="fade-left"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <div>
+                    <span class="material-symbols-outlined choose_icon">
+                      engineering
+                    </span>
+                  </div>
+                  <div>
+                    <h5 class="text-white text-uppercase">
+                      Quality Craftsmanship
+                    </h5>
+                    <p class="text-light">
+                      Our team of skilled craftsmen uses the finest materials
+                      and techniques to ensure every piece we create is of the
+                      highest quality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="col-sm-12 col-lg-6 mb-4">
+                <div
+                  class="choose_service_card d-flex py-4 px-3 h-100"
+                  data-aos="fade-left"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <div>
+                    <span class="material-symbols-outlined choose_icon">
+                      electric_bolt
+                    </span>
+                  </div>
+                  <div>
+                    <h5 class="text-white text-uppercase">Custom Solutions</h5>
+                    <p class="text-light">
+                      We understand that every client has unique needs. That's
+                      why we offer bespoke solutions tailored to your specific
+                      requirements and preferences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="col-sm-12 col-lg-6 mb-4">
+                <div
+                  class="choose_service_card d-flex py-4 px-3 h-100"
+                  data-aos="fade-left"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <div>
+                    <span class="material-symbols-outlined choose_icon">
+                      foundation
+                    </span>
+                  </div>
+                  <div>
+                    <h5 class="text-white text-uppercase">
+                      Innovative Designs
+                    </h5>
+                    <p class="text-light">
+                      Combining traditional artistry with modern innovation, we
+                      stay ahead of trends to provide you with the most
+                      up-to-date designs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end item  -->
+              <div class="col-sm-12 col-lg-6 mb-4">
+                <div
+                  class="choose_service_card d-flex py-4 px-3 h-100"
+                  data-aos="fade-left"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <div>
+                    <span class="material-symbols-outlined choose_icon">
+                      yard
+                    </span>
+                  </div>
+                  <div>
+                    <h5 class="text-white text-uppercase">
+                      Exceptional Service
+                    </h5>
+                    <p class="text-light">
+                      From the initial consultation to the final installation,
+                      we are committed to providing an exceptional customer
+                      experience at every stage of your project.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- end item  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= About Us start  ======= -->
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 mb-5 overflow_content">
+          <div class="about_image">
+            <div
+              class="years_card p-4"
+              data-aos="fade-right"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <div>
+                <center>
+                  <h1 class="text-white years_count">26</h1>
+                  <p class="years_sub">YEARS OF EXPERIENCE</p>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <div class="overflow_content">
+            <h5
+              class="about_us_sub mb-3"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              ABOUT US
+            </h5>
+            <h1
+              class="fw-bold mb-4 text-uppercase"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              INTRODUCING ABOUT OUR carpentry BUSINESS
+            </h1>
+            <p data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+              SGOC Projects, located in the heart of Johannesburg's East Rand,
+              is your premier destination for bespoke carpentry solutions. Our
+              specialization in custom kitchen units, wardrobes, TV stands,
+              ceilings, and floors allows us to blend traditional craftsmanship
+              with modern innovation.
+            </p>
+            <p data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+              Whether you're looking for a sleek kitchen remodel or exquisite
+              woodwork to transform your living space, our team of dedicated
+              artisans is here to exceed your expectations.
+            </p>
+            <p data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000">
+              At SGOC Projects, every piece is crafted with precision and
+              passion to bring your unique vision to life.
+            </p>
+
+            <div
+              class="row mt-5"
+              data-aos="zoom-in"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              <div class="col-3 col-md-2">
+                <img
+                  src="assets/images/carousel_image02.jpeg"
+                  alt=""
+                  class="ceo_image"
+                />
+              </div>
+              <div class="col d-flex align-items-center">
+                <div>
+                  <p class="ceo_name mb-0">Themba Sibeko</p>
+                  <p class="ceo_sub_name">Co-Founder & CEO</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="btn btn_about px-5 py-3 rounded-0 mt-5"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              MORE ABOUT US
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Services start ======= -->
+    <section class="service_container">
+      <div class="container mt-5 py-5 overflow_content">
+        <center>
+          <button
+            type="button"
+            class="btn btn-outline-light px-5 py-2 rounded-0 border-2 mb-4"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            FLOWLESS SERVICES
+          </button>
+          <h1
+            class="choose_title mb-3"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            OUR TOP NOTCH SERVICES
+          </h1>
+          <p
+            class="text-white service_description"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            bespoke carpentry solutions. From custom kitchen units to innovative
+            ceiling designs, our expert craftsmen bring precision and creativity
+            to every project.
+          </p>
+        </center>
+
+        <div class="row mt-5 overflow_content">
+          <div class="col-12 col-lg-4">
+            <div class="mt-5">
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Custom Kitchen Units</p>
+                  <p class="text-light">
+                    Tailored to your needs, our custom kitchen units combine
+                    functionality with style, offering the perfect solution for
+                    your culinary space.
+                  </p>
+                </center>
+              </div>
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Wardrobes</p>
+                  <p class="text-light">
+                    Maximize your storage with our elegant, custom-made
+                    wardrobes designed to complement any room.
+                  </p>
+                </center>
+              </div>
+            </div>
+          </div>
+          <!-- end group item  -->
+          <div class="col-12 col-lg-4">
+            <div>
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Luxury TV Stands</p>
+                  <p class="text-light">
+                    Our bespoke TV stands are crafted to provide both
+                    functionality and aesthetic appeal, making them the perfect
+                    addition to your living room.
+                  </p>
+                </center>
+              </div>
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Ceilings</p>
+                  <p class="text-light">
+                    From conventional to back-lit, tray, and suspended ceilings,
+                    we offer a range of options to enhance the beauty and
+                    functionality of your space.
+                  </p>
+                </center>
+              </div>
+            </div>
+          </div>
+          <!-- end group item  -->
+          <div class="col-12 col-lg-4">
+            <div class="mt-5">
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Floors</p>
+                  <p class="text-light">
+                    Transform your floors with our expertly crafted solutions
+                    that add a touch of elegance and durability to any room.
+                  </p>
+                </center>
+              </div>
+              <div
+                class="service_card p-3 mb-4"
+                data-aos="zoom-in"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                <center>
+                  <i class="bi bi-house-gear service_icon mb-3"></i>
+                  <p class="service_title mb-3">Custom Furniture Pieces</p>
+                  <p class="text-light">
+                    Our custom furniture pieces are designed to fit perfectly
+                    into your space and lifestyle. From dining tables to
+                    bookshelves, we create unique items that reflect your
+                    personal taste and elevate your home's interior.
+                  </p>
+                </center>
+              </div>
+            </div>
+          </div>
+          <!-- end group item  -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Recent Activities ======= -->
+    <section class="container" style="margin-top: 100px">
+      <div class="row overflow_content">
+        <div
+          class="col-sm-12 col-lg-4 mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div class="h-100">
+            <h6 class="portfolio_headings mb-2">RECENT ACTIVITIES</h6>
+            <h1 class="mb-0 fw-bold">CHECKOUT</h1>
+            <h1 class="fw-bold mb-4">RECENT WORK</h1>
+            <p class="text-secondary">
+              At SGOC Projects, we're constantly pushing the boundaries of
+              bespoke carpentry to deliver exceptional results for our clients.
+              Our recent projects highlight our dedication to quality,
+              innovation, and customer satisfaction. From intricate ceiling
+              designs to elegant wardrobe installations, we continue to
+              transform spaces across Johannesburg's East Rand. Here are some of
+              our latest endeavors:
+            </p>
+            <button class="btn btn_about px-5 py-3 mt-4 rounded-0">
+              VIEW MORE
+            </button>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-sm-12 col-lg-4 mb-5"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <img
+              src="assets/images/current_01.jpg"
+              alt=""
+              class="portfolio_image"
+            />
+            <div class="mt-4">
+              <h6 class="fw-bold portfolio_sub_heading">
+                Innovative Ceiling Designs
+              </h6>
+              <p class="text-secondary" style="font-size: 14px">
+                We recently completed a series of stunning ceiling projects,
+                including conventional, back-lit, tray, and suspended ceilings.
+                Each design was meticulously crafted to enhance the ambiance and
+                functionality of the space, showcasing our ability to blend
+                aesthetic appeal with practical solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-sm-12 col-lg-4 mb-5"
+          data-aos="fade-left"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+        >
+          <div>
+            <img
+              src="assets/images/current_02.jpg"
+              alt=""
+              class="portfolio_image"
+            />
+            <div class="mt-4">
+              <h6 class="fw-bold portfolio_sub_heading">
+                Elegant Wardrobe Installations
+              </h6>
+              <p class="text-secondary" style="font-size: 14px">
+                Our latest wardrobe projects have been a testament to our
+                commitment to creating custom storage solutions that are both
+                stylish and functional. From walk-in closets to fitted
+                wardrobes, we tailored each installation to meet the unique
+                needs and preferences of our clients, ensuring optimal use of
+                space and a seamless integration with their home interiors.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= Banner 01 ======= -->
+    <section class="banner_01">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 overflow_content">
+            <div class="banner_card px-4 py-5">
+              <h2
+                class="banner_white_title mb-1"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                WE BELIEVE BUILDING LONG
+              </h2>
+              <h2
+                class="banner_white_title mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                LASTING
+              </h2>
+              <h2
+                class="banner_dark_title mb-1"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                GOOD HAPPY BUSINESS
+              </h2>
+              <h2
+                class="banner_dark_title mb-4"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                RELATIONSHIPS.
+              </h2>
+              <h2
+                class="banner_white_title mb-1"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                0768265117
+              </h2>
+              <h2
+                class="banner_white_title"
+                data-aos="fade-right"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+              >
+                tsibeko503@gmail.com
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Newsletter Start ======= -->
+    <section class="container" style="margin-top: 100px">
+      <div class="newsletter_container p-5">
+        <div class="row overflow_content">
+          <div class="col-12 col-lg-6 mb-3">
+            <h2
+              class="banner_white_title text-light"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              SUBSCRIBE NEWSLETTER
+            </h2>
+            <p
+              class="mb-0 text-light"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Join our newsletter to receive the latest updates, special offers,
+              and design inspirations straight to your inbox. Don't miss out on
+              the opportunity to stay connected with Johannesburg's premier
+              carpentry solutions provider.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div
+                  class="form-floating mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Your Name"
+                  />
+                  <label for="floatingInput">Your Name</label>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div
+                  class="form-floating mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-outline-light w-100 py-3 fw-bold"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              SUBSCRIBE NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Footer Start ======= -->
+    <section class="footer_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-5">
+            <h2 class="banner_white_title text-white">SGOC PROJECTS</h2>
+            <p class="mb-3 text-white">
+              Where craftsmanship meets creativity. Specializing in bespoke
+              carpentry solutions, we transform your vision into reality with
+              precision and passion.
+            </p>
+            <div class="d-flex">
+              <i class="bi bi-facebook navbar_icon"></i>
+              <i class="bi bi-instagram navbar_icon mx-4"></i>
+              <i class="bi bi-linkedin navbar_icon"></i>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-lg-3 mb-5">
+            <h5 class="portfolio_headings text-light mb-4 align-bottom">
+              CONTACT INFORMATION
+            </h5>
+            <p class="text-light">Phone: 0768265117</p>
+            <p class="text-light">Mail: tsibeko503@gmail.com</p>
+            <p class="text-light">
+              Address: Workshop 102 Middle Road Rand Collieries SH, Brakpan
+              ,Johannesburg , 1541
+            </p>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-lg-3 mb-5">
+            <h5
+              class="portfolio_headings text-light mb-4 align-bottom text-uppercase"
+            >
+              useful links
+            </h5>
+            <a href="about.html">
+              <p class="text-light">About us</p>
+            </a>
+            <hr class="text-light" />
+            <a href="services.html">
+              <p class="text-light">Services</p>
+            </a>
+            <hr class="text-light" />
+            <a href="contact.html">
+              <p class="text-light">Contact</p>
+            </a>
+            <hr class="text-light" />
+          </div>
+          <div class="col-12 col-lg-3 mb-5">
+            <h5
+              class="portfolio_headings text-light mb-4 align-bottom text-uppercase"
+            >
+              Gallery
+            </h5>
+            <div class="row">
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery01.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery02.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery03.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery04.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery05.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery06.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animation Scripts start  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Animation Scripts end  -->
+  </body>
+</html>

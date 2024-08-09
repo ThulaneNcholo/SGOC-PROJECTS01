@@ -1,0 +1,273 @@
+:root {
+  --primary_color: #698d6d;
+  --secondary_color: #403e3c;
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+body {
+  color: rgb(51, 51, 51);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Animation Overflow  */
+.overflow_content {
+  overflow: hidden !important;
+}
+
+/* Contact Section Styling  */
+.contact_background {
+  background-color: var(--secondary_color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact_icon {
+  font-size: 20px;
+  color: var(--primary_color);
+  border: 2px solid var(--primary_color);
+  margin-right: 10px;
+}
+
+/* Navbar styling start  */
+.navbar_background {
+  background-color: var(--primary_color);
+}
+
+.nav-link {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar_icon {
+  color: white;
+  font-size: 25px;
+}
+
+.menu_icon {
+  color: white;
+  font-size: 25px;
+}
+
+.navbar_logo_style {
+  height: 40px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Navbar Offcanvas Menu Start  */
+.offcanvas-start {
+  background-color: var(--primary_color);
+}
+
+.offcanvas_logo {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Header Carousel  */
+.carousel-item {
+  position: relative;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* You can change the text color as needed */
+}
+
+.carousel_title {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+}
+
+.carousel_sub {
+  width: 70%;
+  font-size: 17px;
+}
+
+.carousel_btn {
+  background-color: var(--primary_color);
+  color: white;
+}
+
+/* Why Choose us styling  */
+.choose_title {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+.choose_btn {
+  background-color: var(--primary_color);
+  color: white;
+}
+
+.choose_service_card {
+  background-color: var(--secondary_color);
+}
+
+.choose_icon {
+  color: var(--primary_color);
+  font-size: 50px;
+  margin-right: 15px;
+}
+
+/* About style start  */
+.about_card {
+  margin-top: -100px;
+  width: 80%;
+}
+
+.about_header {
+  border-color: var(--primary_color) !important;
+  color: var(--primary_color);
+}
+
+.about_us_sub {
+  color: var(--primary_color);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ceo_image {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.ceo_name {
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.ceo_sub_name {
+  font-size: 15px;
+}
+
+.btn_about {
+  background-color: var(--primary_color);
+  color: white;
+  font-weight: 600;
+}
+
+.years_card {
+  background-color: var(--primary_color);
+  width: 30%;
+  border: 7px solid white;
+}
+
+.years_count {
+  color: white;
+  font-weight: 800;
+  font-size: 70px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.years_sub {
+  color: white;
+  /* font-size: 40px; */
+  margin-bottom: 0px;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Services start  */
+.service_container {
+  background-color: var(--secondary_color);
+  width: 100%;
+}
+
+.service_description {
+  width: 70%;
+}
+
+.service_card {
+  background-color: var(--primary_color);
+}
+
+.service_icon {
+  color: white;
+  font-size: 45px;
+}
+
+.service_title {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Portfolio style start  */
+.portfolio_headings {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.portfolio_sub_heading {
+  text-transform: uppercase;
+  color: var(--primary_color);
+}
+
+.portfolio_image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.banner_card {
+  background-color: var(--primary_color);
+}
+
+.banner_white_title {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+.banner_dark_title {
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+/* Newsletter start  */
+.newsletter_container {
+  background-color: var(--primary_color);
+  width: 100%;
+  margin-bottom: -100px;
+  z-index: 1 !important;
+  position: relative;
+}
+
+/* Footer styling  */
+.footer_container {
+  background-color: var(--secondary_color);
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+.footer_images {
+  height: 80px;
+  width: 100%;
+  object-fit: cover;
+}

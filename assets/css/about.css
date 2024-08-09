@@ -1,0 +1,43 @@
+:root {
+  --primary_color: #698d6d;
+  --secondary_color: #403e3c;
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+.ceo_statement {
+  color: var(--primary_color);
+}
+
+/* Goals style  */
+.goal_card {
+  background-color: white;
+}
+
+.goals_circle {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: var(--primary_color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goals_icon {
+  font-size: 30px;
+  color: white;
+}
+
+.goals_title {
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.about_logo {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+

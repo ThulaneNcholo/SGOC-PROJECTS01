@@ -1,0 +1,57 @@
+:root {
+  --primary_color: #698d6d;
+  --secondary_color: #403e3c;
+  --orange_color: #f25334;
+  --white_color: rgb(255, 255, 255);
+  --background_color: #f1f3f2;
+}
+
+.services_container {
+  background-color: var(--primary_color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.service_description {
+  width: 70%;
+}
+
+.service_page_card {
+  background-color: var(--secondary_color);
+}
+
+.service_page_icon {
+  color: var(--primary_color);
+  font-size: 45px;
+}
+
+.service_title {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.features_btn {
+  color: var(--primary_color);
+  border-color: var(--primary_color);
+}
+
+/* Service Contact Section style start  */
+.accordion-button {
+  background-color: #698d6d90 !important;
+  color: var(--secondary_color) !important;
+}
+
+.service_contact_card {
+  background-color: white;
+}
+
+.service_contact_bg {
+  background-color: var(--primary_color);
+}
+
+.quote_btn {
+  background-color: var(--primary_color);
+  color: white !important;
+}

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Montserrat Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poppins Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- Google Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Main css  -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <!-- About css  -->
+    <link rel="stylesheet" href="assets/css/about.css" />
+
+    <!-- Service css  -->
+    <link rel="stylesheet" href="assets/css/services.css" />
+
+    <!-- AOS animation  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>SGOC PROJECTS</title>
+
+    <style>
+      .about_header {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("assets/images/about_header.png");
+        padding-top: 150px;
+        padding-bottom: 150px;
+        width: 100%;
+        background-size: cover;
+      }
+
+      @media screen and (max-width: 576px) {
+        .carousel_title {
+          color: rgb(255, 255, 255);
+          font-size: 30px;
+          font-weight: 900;
+          font-family: "Montserrat", sans-serif;
+        }
+
+        .about_header {
+          padding-top: 80px;
+          padding-bottom: 80px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======= Contact Info start  ======= -->
+    <section class="contact_background d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div>
+              <h1 class="text-white fw-bold mb-0">SGOC PROJECTS</h1>
+              <p class="text-white mb-0">Carpentry Solutions</p>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <div class="d-flex">
+                <div>
+                  <i class="bi bi-telephone-fill contact_icon py-1 px-2"></i>
+                </div>
+                <div>
+                  <h6 class="text-white mb-0">076 826 5117</h6>
+                  <p class="text-light mb-0">Phone Number</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="d-flex align-items-center">
+              <div class="d-flex">
+                <div>
+                  <i class="bi bi-envelope-at-fill contact_icon py-1 px-2"></i>
+                </div>
+                <div>
+                  <h6 class="text-white mb-0">tsibeko503@gmail.com</h6>
+                  <p class="text-light mb-0">Email address</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Navbar start  ======= -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-light navbar_background py-3">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="assets/images/navbar_logo.png"
+              alt=""
+              class="navbar_logo_style"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample"
+          >
+            <i class="bi bi-list menu_icon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <i class="bi bi-facebook navbar_icon"></i>
+              <i class="bi bi-instagram navbar_icon mx-4"></i>
+              <i class="bi bi-linkedin navbar_icon"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- ======= Navbar Menu Offcanvas Start  ======= -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel"></h5>
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <center>
+          <img
+            src="assets/images/logo_white_no_bg.png"
+            alt=""
+            class="offcanvas_logo mb-4"
+          />
+
+          <a href="index.html">
+            <p class="text-light">Home</p>
+          </a>
+          <hr class="text-light" />
+          <a href="services.html">
+            <p class="text-light">Services</p>
+          </a>
+          <hr class="text-light" />
+          <a href="about.html">
+            <p class="text-light">About</p>
+          </a>
+          <hr class="text-light" />
+          <a href="portfolio.html">
+            <p class="text-light">Portfolio</p>
+          </a>
+          <hr class="text-light" />
+          <a href="contact.html">
+            <p class="text-light">Contact</p>
+          </a>
+          <hr class="text-light" />
+        </center>
+      </div>
+    </div>
+
+    <!-- ======= Page Header  ======= -->
+    <section class="about_header">
+      <div class="container overflow_content">
+        <center>
+          <h3
+            class="carousel_title text-uppercase"
+            data-aos="fade-right"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            about us
+          </h3>
+        </center>
+      </div>
+    </section>
+
+    <!-- ======= About start ======= -->
+    <section class="container mt-5">
+      <div class="row overflow_content">
+        <div class="col-12 col-lg-6 mb-4">
+          <button
+            type="button"
+            class="btn features_btn border-2 px-4 py-3 rounded-0 mb-4 text-uppercase fw-bold"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+          >
+            introduction
+          </button>
+          <h1
+            class="fw-bold mb-4 text-uppercase"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+          >
+            How we became best among others?
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1100">
+            Nestled in the heart of Johannesburg's East Rand, SGOC Projects is
+            your premier destination for bespoke carpentry solutions. We
+            specialize in custom kitchen units, wardrobes, TV stands, ceilings,
+            and floors, blending traditional craftsmanship with modern
+            innovation. Our dedicated team of artisans is committed to exceeding
+            your expectations and bringing your unique vision to life with
+            precision and passion.
+          </p>
+        </div>
+        <!-- end item  -->
+        <div class="col-12 col-lg-6 mb-4">
+          <h5
+            class="fw-bold mb-4"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+          >
+            "Our commitment to quality and creativity drives us to transform
+            spaces and create lasting impressions."
+          </h5>
+          <h5
+            class="ceo_statement fw-bold mb-3"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+          >
+            CEO, SGOC Projects
+          </h5>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
+            - Our team of skilled artisans uses the finest materials and
+            techniques to deliver exceptional carpentry solutions.
+          </p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
+            - We offer custom-designed pieces that meet your specific needs and
+            preferences, ensuring a perfect fit for your space.
+          </p>
+          <p data-aos="fade-up" data-aos-delay="50" data-aos-duration="1200">
+            - We prioritize your satisfaction with every project, providing
+            exceptional service from consultation to installation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Goals ======= -->
+    <section class="container my-5">
+      <div class="row overflow_content">
+        <div
+          class="col-12 col-md-4 mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+        >
+          <div class="goal_card h-100 shadow px-3 py-5">
+            <center>
+              <div class="goals_circle mb-4">
+                <div class="material-symbols-outlined goals_icon">
+                  approval_delegation
+                </div>
+              </div>
+              <h5 class="text-bold text-uppercase goals_title">our mission</h5>
+              <p>
+                To provide high-quality, bespoke carpentry solutions that blend
+                traditional craftsmanship with modern innovation, exceeding our
+                clients' expectations with every project.
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-4 mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+        >
+          <div class="goal_card h-100 shadow px-3 py-5">
+            <center>
+              <div class="goals_circle mb-4">
+                <div class="material-symbols-outlined goals_icon">
+                  emoji_objects
+                </div>
+              </div>
+              <h5 class="text-bold text-uppercase goals_title">our vision</h5>
+              <p>
+                To be the leading provider of custom carpentry solutions in
+                Johannesburg and beyond, known for our dedication to quality,
+                creativity, and customer satisfaction.
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+        <div
+          class="col-12 col-md-4 mb-5"
+          data-aos="fade-right"
+          data-aos-delay="50"
+          data-aos-duration="1200"
+        >
+          <div class="goal_card h-100 shadow px-3 py-5">
+            <center>
+              <div class="goals_circle mb-4">
+                <div class="material-symbols-outlined goals_icon">verified</div>
+              </div>
+              <h5 class="text-bold text-uppercase goals_title">our values</h5>
+              <p>
+                We uphold the highest standards of quality craftsmanship,
+                tailoring our services to meet each client's unique needs and
+                preferences. By combining traditional artistry with modern
+                innovation, we stay ahead of trends and ensure excellence at
+                every stage of our projects, from consultation to installation.
+              </p>
+            </center>
+          </div>
+        </div>
+        <!-- end item  -->
+      </div>
+    </section>
+
+    <!-- ======= Pictures ======= -->
+    <section class="container my-5">
+      <div class="row">
+        <div class="col-12 col-md-6 order-md-2">
+          <img
+            src="assets/images/about_image02.jpg"
+            alt=""
+            class="about_logo"
+          />
+        </div>
+        <div class="col-12 col-md-6 order-md-1">
+          <img
+            src="assets/images/logo-08.png"
+            alt=""
+            class="about_logo shadow"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Newsletter Start ======= -->
+    <section class="container" style="margin-top: 100px">
+      <div class="newsletter_container p-5">
+        <div class="row overflow_content">
+          <div class="col-12 col-lg-6 mb-3">
+            <h2
+              class="banner_white_title text-light"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              SUBSCRIBE NEWSLETTER
+            </h2>
+            <p
+              class="mb-0 text-light"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              Join our newsletter to receive the latest updates, special offers,
+              and design inspirations straight to your inbox. Don't miss out on
+              the opportunity to stay connected with Johannesburg's premier
+              carpentry solutions provider.
+            </p>
+          </div>
+          <div class="col-12 col-lg-6 mb-3">
+            <div class="row">
+              <div class="col-12 col-lg-6">
+                <div
+                  class="form-floating mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="Your Name"
+                  />
+                  <label for="floatingInput">Your Name</label>
+                </div>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div
+                  class="form-floating mb-3"
+                  data-aos="fade-up"
+                  data-aos-delay="50"
+                  data-aos-duration="1000"
+                >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+              </div>
+            </div>
+            <button
+              type="button"
+              class="btn btn-outline-light w-100 py-3 fw-bold"
+              data-aos="fade-up"
+              data-aos-delay="50"
+              data-aos-duration="1000"
+            >
+              SUBSCRIBE NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= Footer Start ======= -->
+    <section class="footer_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-5">
+            <h2 class="banner_white_title text-white">SGOC PROJECTS</h2>
+            <p class="mb-3 text-white">
+              Where craftsmanship meets creativity. Specializing in bespoke
+              carpentry solutions, we transform your vision into reality with
+              precision and passion.
+            </p>
+            <div class="d-flex">
+              <i class="bi bi-facebook navbar_icon"></i>
+              <i class="bi bi-instagram navbar_icon mx-4"></i>
+              <i class="bi bi-linkedin navbar_icon"></i>
+            </div>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-lg-3 mb-5">
+            <h5 class="portfolio_headings text-light mb-4 align-bottom">
+              CONTACT INFORMATION
+            </h5>
+            <p class="text-light">Phone: 0768265117</p>
+            <p class="text-light">Mail: tsibeko503@gmail.com</p>
+            <p class="text-light">
+              Address: Workshop 102 Middle Road Rand Collieries SH, Brakpan
+              ,Johannesburg , 1541
+            </p>
+          </div>
+          <!-- end item  -->
+          <div class="col-12 col-lg-3 mb-5">
+            <h5
+              class="portfolio_headings text-light mb-4 align-bottom text-uppercase"
+            >
+              useful links
+            </h5>
+            <a href="about.html">
+              <p class="text-light">About us</p>
+            </a>
+            <hr class="text-light" />
+            <a href="services.html">
+              <p class="text-light">Services</p>
+            </a>
+            <hr class="text-light" />
+            <a href="contact.html">
+              <p class="text-light">Contact</p>
+            </a>
+            <hr class="text-light" />
+          </div>
+          <div class="col-12 col-lg-3 mb-5">
+            <h5
+              class="portfolio_headings text-light mb-4 align-bottom text-uppercase"
+            >
+              Gallery
+            </h5>
+            <div class="row">
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery01.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery02.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery03.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery04.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery05.jpeg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+              <div class="col-4 mb-2">
+                <img
+                  src="assets/images/gallery06.jpg"
+                  alt=""
+                  class="footer_images"
+                />
+              </div>
+              <!-- end image  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Animation Scripts start  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Animation Scripts end  -->
+  </body>
+</html>
